@@ -1,0 +1,17 @@
+{
+  "name": "recepten-kookboek",
+  "version": "1.0.0",
+  "description": "Persoonlijk kookboek",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "clean": "rm -rf _site"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  },
+  "dependencies": {
+    "@cooklang/cooklang": "^0.17.2",
+    "gray-matter": "^4.0.3"
+  }
+}

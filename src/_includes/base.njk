@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if paginaTitel %}{{ paginaTitel }} — {% endif %}Mijn Kookboek</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-inner">
+      <a href="/" class="logo">Mijn Kookboek</a>
+      <ul>
+        <li><a href="/recepten/">Alle recepten</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  <footer>
+    <p>Persoonlijk kookboek</p>
+  </footer>
+</body>
+</html>

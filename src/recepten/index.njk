@@ -1,0 +1,23 @@
+---
+layout: base.njk
+paginaTitel: Alle recepten
+permalink: /recepten/
+---
+
+<h1 class="pagina-titel">Alle recepten</h1>
+
+{% for groep in recepten | groeperenOpCategorie %}
+<section class="categorie-sectie">
+  <h2>{{ groep.categorieNaam }}</h2>
+  <ul class="recept-lijst">
+    {% for recept in groep.recepten %}
+    <li>
+      <a href="{{ recept.url }}">{{ recept.titel }}</a>
+      {% if recept.frontmatter.time %}
+      <span class="tijd">{{ recept.frontmatter.time }}</span>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}

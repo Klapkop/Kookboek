@@ -1,0 +1,25 @@
+---
+layout: base.njk
+paginaTitel: Kookboek
+---
+
+<div class="hero">
+  <h1>Mijn Kookboek</h1>
+  <p class="hero-ondertitel">{{ recepten | length }} recepten</p>
+</div>
+
+<section class="recept-grid">
+  {% for recept in recepten %}
+  <a href="{{ recept.url }}" class="recept-kaart">
+    <span class="categorie-badge">{{ recept.categorieNaam }}</span>
+    <h2>{{ recept.titel }}</h2>
+    {% if recept.frontmatter.description %}
+    <p>{{ recept.frontmatter.description }}</p>
+    {% endif %}
+    <div class="recept-meta">
+      {% if recept.frontmatter.time %}<span>{{ recept.frontmatter.time }}</span>{% endif %}
+      {% if recept.frontmatter.servings %}<span>{{ recept.frontmatter.servings }} personen</span>{% endif %}
+    </div>
+  </a>
+  {% endfor %}
+</section>

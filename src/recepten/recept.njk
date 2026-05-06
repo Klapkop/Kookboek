@@ -1,0 +1,88 @@
+---
+pagination:
+  data: recepten
+  size: 1
+  alias: recept
+permalink: "/recepten/{{ recept.categorie }}/{{ recept.slug }}/"
+layout: base.njk
+---
+
+<article class="recept">
+
+  <header class="recept-header">
+    <div class="broodkruimel">
+      <a href="/">Kookboek</a> &rsaquo;
+      <a href="/recepten/">Recepten</a> &rsaquo;
+      {{ recept.categorieNaam }}
+    </div>
+
+    <h1>{{ recept.titel }}</h1>
+
+    {% if recept.frontmatter.description %}
+    <p class="beschrijving">{{ recept.frontmatter.description }}</p>
+    {% endif %}
+
+    <div class="recept-meta">
+      {% if recept.frontmatter.time %}
+      <span><strong>Bereidingstijd</strong> {{ recept.frontmatter.time }}</span>
+      {% endif %}
+      {% if recept.frontmatter.servings %}
+      <span><strong>Porties</strong> {{ recept.frontmatter.servings }}</span>
+      {% endif %}
+    </div>
+
+    {% if recept.frontmatter.tags %}
+    <div class="tags">
+      {% for tag in recept.frontmatter.tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </header>
+
+  {% if recept.notities.length %}
+  <div class="notitie">
+    {% for notitie in recept.notities %}
+    <p>{{ notitie }}</p>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if recept.ingredienten.length %}
+  <section class="ingredienten">
+    <h2>Ingredienten</h2>
+    <ul>
+      {% for ing in recept.ingredienten %}
+      <li>
+        {% if ing.quantity and ing.quantity != '0' %}
+        <span class="hoeveelheid">{{ ing.quantity }}{% if ing.unit %} {{ ing.unit }}{% endif %}</span>
+        {% endif %}
+        {{ ing.name }}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <section class="bereiding">
+    <h2>Bereiding</h2>
+
+    {% for sectie in recept.secties %}
+    {% if sectie.naam %}
+    <h3 class="sectie-header">{{ sectie.naam }}</h3>
+    {% endif %}
+    {% if sectie.stappen.length %}
+    <ol class="stappen">
+      {% for stap in sectie.stappen %}
+      <li class="stap">{{ stap.html | safe }}</li>
+      {% endfor %}
+    </ol>
+    {% endif %}
+    {% endfor %}
+  </section>
+
+</article>
+
+<div class="print-knop">
+  <button onclick="window.print()">Afdrukken</button>
+</div>
