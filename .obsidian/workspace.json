@@ -1,0 +1,202 @@
+{
+  "main": {
+    "id": "b879ca62a20f0a0f",
+    "type": "split",
+    "children": [
+      {
+        "id": "d82ad97da0796752",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c83ca8b809b071cf",
+            "type": "leaf",
+            "state": {
+              "type": "cook",
+              "state": {
+                "file": "recipes/mains/Pasta Carbonara.cook",
+                "mode": "source"
+              },
+              "icon": "document-cook",
+              "title": "Pasta Carbonara"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "19f65f292b5494f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "51c4cb15d37b2142",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19662f9319ca6916",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7a0e1cd2672582d1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3630bf796308685d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2d5d04eab27bb4f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "a2b45db9155d49c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d98a2fcd081d5c4e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "recipes/mains/Pasta Carbonara.cook",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Pasta Carbonara"
+            }
+          },
+          {
+            "id": "febed90db931aca2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "recipes/mains/Pasta Carbonara.cook",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Pasta Carbonara"
+            }
+          },
+          {
+            "id": "dd078a0ade27c65b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "386ccdd52d18ad8d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "b95de31c6e8de022",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "recipes/mains/Pasta Carbonara.cook",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Pasta Carbonara"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c83ca8b809b071cf",
+  "lastOpenFiles": [
+    "claude.md",
+    "recipes/mains/Pasta Carbonara.cook",
+    "recipes/config/pantry.conf",
+    "recipes/config/pantry.conf.tmp.54448.1777949978711",
+    "recipes/config/aisle.conf",
+    "recipes/config/aisle.conf.tmp.54448.1777949976267",
+    "recipes/config",
+    "recipes/drinks",
+    "recipes/snacks",
+    "recipes/desserts",
+    "recipes/breads",
+    "docs/equipment.md",
+    "docs/preferences.md",
+    "Welcome.md"
+  ]
+}
