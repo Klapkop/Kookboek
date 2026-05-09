@@ -4,7 +4,7 @@ Documentation=https://cooklang.org/cli/
 After=network.target
 
 [Service]
-ExecStart=/home/linuxbrew/.linuxbrew/bin/cook server --port 9080 %h/projects/Recepten/recipes
+ExecStart=/home/linuxbrew/.linuxbrew/bin/cook server --host --port 9080 %h/projects/Recepten/recipes
 Restart=on-failure
 RestartSec=5s
 
