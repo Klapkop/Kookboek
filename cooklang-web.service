@@ -1,0 +1,12 @@
+[Unit]
+Description=Cooklang Web Interface
+Documentation=https://cooklang.org/cli/
+After=network.target
+
+[Service]
+ExecStart=/home/linuxbrew/.linuxbrew/bin/cook server --port 9080 %h/projects/Recepten/recipes
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=default.target
