@@ -294,3 +294,7 @@ Invoke these skills when the user's request matches:
 - `/shopping-list` — when asked for a shopping list
 - `/scale-recipe` — when asked to scale or resize a recipe
 - `/meal-plan` — when asked to plan meals or create a .menu file
+
+## Git policy
+- Zorg dat je altijd een commit aanmaakt aan na een wijziging
+- Zorg dat je altijd pushed naar remote na het maken van een commit
