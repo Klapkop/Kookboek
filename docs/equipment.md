@@ -4,7 +4,7 @@ Noteer hier beschikbare apparaten, kookgerei en gereedschappen zodat recepten hi
 
 ## Apparaten
 
-- Ninja Speedi
+- Ninja Speedi ON400UK (10-in-1, geen pressure cooking — gebruikt Steam-functie)
 - Keukenmixer
 - Keukenmachine
 
