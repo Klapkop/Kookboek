@@ -11,6 +11,7 @@ Noteer hier beschikbare apparaten, kookgerei en gereedschappen zodat recepten hi
 ## Kookgerei
 - Koolstofstalen koekenpan (28 cm)
 - Roestvrijstalen koekenpan (24 cm)
+- Rednas gietijzeren pannenset (3-delig: ⌀16 cm, ⌀22 cm, ⌀28 cm) — inductie, gas, elektrisch, keramisch, oven, BBQ; PFAS-vrij, voorgebakken seasoning, niet vaatwasmachinebestendig
 
 ## Bakgerei
 
